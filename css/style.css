@@ -1,5 +1,11 @@
 body {
-  background-color: gold;
+  background-image: url(“fundo.jpg”);
+  margin: 0px;
+}
+main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 h1 {
   color: black;
@@ -27,61 +33,27 @@ h4 {
 }
 
 p {
-  font-family: verdana;
+  font-family: arial;
   font-size: 10px;
   text-align: center;}
 
+  .navbar ul {
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
 
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #f555;
-}
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
 
-li, a, button {
+  .navbar a:hover {
+    background-color: darkgoldenrod;
 
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  align-itens: center;
-  padding: 30px 10%;
-}
-
-
-}
-
-#logo {
-cursor: pointer;
-}
-
-#nav-links {
-  list-style: none;
-}
-
-#nav-links li {
-display: inline-block;
-padding: 0px 20px
-}
-
-#nav-links {
-  trasition: all 0.3s ease 0s;
-}
-
-#nav-links li a:hover{
-  color: #fff8;
-}
-
-button {
-  padding: 9px 25px;
-  background-color: #f456;
-  border: none
-  border-radius: 50px;
-  cursor-pointe: pointer;
-  trasition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: #fff5;
-}
+  }
