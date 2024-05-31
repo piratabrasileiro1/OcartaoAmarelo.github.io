@@ -57,3 +57,18 @@ p {
     background-color: darkgoldenrod;
 
   }
+
+  #ronaldo-perfil {
+    float: right; 
+    margin-left: 10px;
+  }
+
+  #luciano-perfil {
+    float: right; 
+    margin-left: 10px;
+  }
+
+  #igorsaopaulo-perfil {
+    float: right; 
+    margin-left: 10px;
+  }
