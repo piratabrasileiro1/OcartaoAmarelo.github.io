@@ -1,6 +1,7 @@
 body {
   background-image: url(“fundo.jpg”);
   margin: 0px;
+  background-position:center
 }
 main {
   margin-left: 30px;
@@ -39,17 +40,17 @@ p {
 
   .navbar ul {
     list-style-type: none;
-    background-color: bisque;
+    background-color: rgb(218, 167, 59);
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    overflow: auto;
   }
 
   .navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
-    display: block;
+    display: middle;
     text-align: center;
   }
 
